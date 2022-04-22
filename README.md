@@ -18,4 +18,4 @@ https://github.com/alexplusde
 
 ## Credits
 
-Danke an [Christoph Böcker](https://github.com/christophboecker) für die Basis zur Nutzung von YForm in Addons
+https://www.cssscript.com/bootstrap-5-icon-picker/
