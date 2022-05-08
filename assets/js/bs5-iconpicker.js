@@ -12,7 +12,7 @@ window.addEventListener('load', async function () {
         if(!element.parentNode.classList.contains('input-group')) {
             element.parentNode.classList.add('input-group');
             // force display table...
-            element.parentNode.style.setProperty('table', 'table', 'important');
+            element.parentNode.style.setProperty('display', 'table', 'important');
         }
 
         // check if input-group-addon is available
