@@ -8,6 +8,12 @@ $(document).on('rex:ready', async function (event, container) {
         let element = all.item(index);
         element.classList.add('form-control');
 
+        id = index;
+
+        if($(element).data("bi-iconpicker") !== null) {
+            id = $(element).data("bi-iconpicker");
+        } 
+
         // check if input-group is available
         if (!element.parentNode.classList.contains('input-group')) {
             element.parentNode.classList.add('input-group');
@@ -19,20 +25,21 @@ $(document).on('rex:ready', async function (event, container) {
         if (!(element.previousElementSibling && element.previousElementSibling.classList.contains('input-group-addon'))) {
             //set input-group and default icon
             const placeholder = document.createElement('div');
-            placeholder.innerHTML = '<span class="input-group-addon selected-icon-0"><i class="bi bi-app"></i></span>';
+            placeholder.innerHTML = '<span class="input-group-addon selected-icon-'+id+'"></span>';
             element.parentNode.insertBefore(placeholder.firstElementChild, element);
         }
 
+
         iconpicker = new Iconpicker(element, {
             icons: result,
-            showSelectedIn: document.querySelector('.selected-icon-' + index),
+            showSelectedIn: document.querySelector('.selected-icon-' + id),
             searchable: true,
             selectedClass: 'selected',
             containerClass: 'bs5-picker',
             hideOnSelect: true,
             fade: false,
-            defaultValue: element.value || 'bi-app',
-            valueFormat: val => `bi ${val}`
+            defaultValue: element.value,
+            valueFormat: val => `${val}`
         });
 
     });
