@@ -1,7 +1,8 @@
 # Bootstrap 5 Icons Iconpicker für REDAXO
 
-Stellt Icons von https://icons.getbootstrap.com/ zur Verfügung.
+Stellt Icons von https://icons.getbootstrap.com/ mit einem Icon-Auswahlfeld zur Verfügung.
 
+![www ehkg-hn de_redaxo_index php_page=wortpresse_category table_name=rex_wortpresse_category rex_yform_manager_popup=0 data_id=1 func=edit list=4b52690d sort= sorttype= start=0 _csrf_token=L3gCP](https://user-images.githubusercontent.com/3855487/197399806-4f35a649-b423-4bd8-8e3c-a6e8804e1bb4.png)
 
 ## Features
 
