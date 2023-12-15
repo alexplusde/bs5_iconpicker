@@ -10,7 +10,7 @@ Stellt Icons von https://icons.getbootstrap.com/ mit einem Icon-Auswahlfeld zur 
 
 Verwende das Value `bs5_iconpicker`, um einen Icon Picker zur Verfügung zu stellen.
 
-### Eigene Verwendung im Backend
+### Eigene Verwendung im Backend (auch in Metainfos)
 
 ```html
 <div class="input-group">
