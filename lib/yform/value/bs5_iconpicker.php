@@ -46,7 +46,7 @@ class rex_yform_value_bs5_iconpicker extends rex_yform_value_text
                 'attributes' => ['type' => 'text',    'label' => rex_i18n::msg('yform_values_defaults_attributes'), 'notice' => rex_i18n::msg('yform_values_defaults_attributes_notice')],
                 'notice' => ['type' => 'text',    'label' => rex_i18n::msg('yform_values_defaults_notice')],
             ],
-            'description' => rex_i18n::msg('yform_values_text_description'),
+            'description' => rex_i18n::msg('yform_values_bs5_iconpicker_description'),
             'db_type' => ['varchar(191)', 'text'],
             'famous' => false,
             'hooks' => [
