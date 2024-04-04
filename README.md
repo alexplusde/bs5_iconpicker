@@ -2,7 +2,7 @@
 
 Stellt Icons von <https://icons.getbootstrap.com/> und die REDAXO 5.17-eingebauten <https://fontawesome.com/search> mit einem Icon-Auswahlfeld zur Verfügung.
 
-![www ehkg-hn de_redaxo_index php_page=wortpresse_category table_name=rex_wortpresse_category rex_yform_manager_popup=0 data_id=1 func=edit list=4b52690d sort= sorttype= start=0 _csrf_token=L3gCP](https://user-images.githubusercontent.com/3855487/197399806-4f35a649-b423-4bd8-8e3c-a6e8804e1bb4.png)
+![image](https://github.com/alexplusde/bs5_iconpicker/assets/3855487/917e5a0f-e0cd-4989-83d5-1705244c643c)
 
 ## Features
 
