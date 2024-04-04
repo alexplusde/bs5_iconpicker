@@ -1,5 +1,5 @@
 package: bs5_iconpicker 
-version: '1.0.7' 
+version: '2.0.0' 
 author: 'Alexander Walther, Thorben' 
 supportpage: https://github.com/alexplusde/bs5_iconpicker 
 
@@ -7,7 +7,7 @@ supportpage: https://github.com/alexplusde/bs5_iconpicker
 requires:
     php:
         version: '>7.3,<9'
-    redaxo: ^5.13
+    redaxo: ^5.17
 
 page:
     title: translate:bs5_iconpicker_title
